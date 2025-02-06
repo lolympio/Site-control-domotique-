@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav id="nav">
+            <div class="div_nav" id="Fermer" onmousedown="div_color6()" onmouseup="div_reset6()"><img src="3740.png" class="image_nav"><span>Fermer</span></div>
+            <div class="div_nav" id="div1" onmousedown="div_color1()" onmouseup="div_reset1()"><img src="home.png" class="image_nav"><span>Accueil</span></div>
+            <div class="div_nav" id="div2" onmousedown="div_color2()" onmouseup="div_reset2()"><img src="lightbulb.png" class="image_nav"><span>Lumière</span></div>
+            <div class="div_nav" id="div3" onmousedown="div_color3()" onmouseup="div_reset3()"><img src="plugin.png" class="image_nav"><span>Prises</span></div>
+            <div class="div_nav" id="div4" onmousedown="div_color4()" onmouseup="div_reset4()"><img src="door-sensor.png" class="image_nav"><span>Capteurs</span></div>
+            <div class="div_nav" id="div5" onmousedown="div_color5()" onmouseup="div_reset5()"><img src="map.png" class="image_nav"><span>Plan</span></div>
+            <div class="div_nav" id="div7" onmousedown="div_color7()" onmouseup="div_reset7()"><span id="pays"></span></div>
+            <div class="div_nav" id="div8" onmousedown="div_color8()" onmouseup="div_reset8()"><span id="ville"></span></div>
+            <div class="div_nav" id="div9" onmousedown="div_color9()" onmouseup="div_reset9()"><span id="temp"></span><img id="image_meteo" src=""></div>
+        </nav>
+        <header id="header">
+            <img src="hamburger.png" id="nav2">
+            <img src="phoscon-logo.png" id="nav1">
+            <h1>Domotique DIY</h1>
+        </header>
+
+        <section id="Accueil">
+
+            <h1>Application</h1>
+            <p>Ce site web permet d'afficher et de controler des modules
+                zigbee compatible avec la clé de marque Phoscon.
+                Un menu vous permettra de naviguer entre vos prises,vos 
+                lumières ou vos capteurs présent dans votre maison;
+            </p>
+            <h1>Matériel</h1>
+            <ul>
+                <li>Raspberry PI</li>
+                <li>Clé Zigbee (Phoscon)</li>
+                <li>Prises zigbee</li>
+                <li>Capteurs zigbee</li>
+                <li>Lumières zigbee</li>
+            </ul>
+            <h1>Navigation</h1>
+
+        </section>
+
+        <section id="Lumière">
+
+            
+
+        </section>
+
+        <section id="Prises">
+
+            <h1>Controle des prises connectées</h1>
+
+        </section>
+
+        <footer id="footer">
+            <p><a href="">Deconz API</a></p>
+            <p><a href="">ConBee 2</a></p>
+            <p><a href="">Deconz application</a></p>
+        </footer>
+        <script type="text/javascript" src="java.js"></script>
+        <script type="text/javascript" src="nav.js"></script>
+        <script type="text/javascript" src="lumier.js"></script>
+        <script type="text/javascript" src="websocet.js"></script>
+    </body>
+</html>

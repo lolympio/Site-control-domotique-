@@ -1,0 +1,103 @@
+body{
+    text-align:center;
+    width:100vw;
+    background-color: #d5d7e9;
+}
+
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    width:100%;
+    padding-top: 1vh;
+    height:10vh;
+    background-color: #556ab9;
+    color: #d5d7e9;
+}
+
+nav{
+    height:100vh;
+    display:none;
+    width:50%;
+    position: absolute;
+    z-index:10;
+    background-color: #556ab9F0;
+    top: 0;
+    left: 0;
+    
+}
+
+#nav2{
+    float: left;
+    padding-top: 2vh;
+    width: 50px;
+    height: 50px;
+    display:block;
+}
+
+#nav1{
+    float: right;
+    padding-top: 2vh;
+    width: 50px;
+    height: 50px;
+    display:block;
+}
+
+section{
+    margin-top: 120px;
+    height:75vh;
+    width:100%;
+    text-align: left;
+    color: #556ab9;
+}
+
+footer{
+    left: 0;
+    position: absolute;
+    height:15vh;
+    width:100%;
+    position:fixed;
+    bottom:0;
+    background-color: #556ab9;
+    color: #d5d7e9;
+}
+
+.div_nav{
+    padding: 20px;
+    color: #d5d7e9;
+    background-color: #556ab9;
+}
+
+.image_nav{
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+#image_meteo{
+    width: 30px;
+    height: 30px;
+}
+
+#Accueil{
+    display: block;
+}
+
+#Lumière{
+    display: none;
+    text-align: center;
+}
+
+.div_Lu{
+    text-align: center;
+}
+
+#image_lu{
+    width: 30px;
+    height: 30px;    
+}
+
+#Prises{
+    text-align: center;
+}
