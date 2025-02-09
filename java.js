@@ -164,7 +164,7 @@ function ajax(){
             document.getElementById("image_meteo").src = icone_final;
         }
     };
-    xhttp.open("GET","https://api.openweathermap.org/data/2.5/weather?lat=48.841386&lon=2.504038&appid=d6141cc0099ba94e288f5ca7147972d9&lang=fr&units=metric")
+    xhttp.open("GET","https://api.openweathermap.org/data/2.5/weather?lat=48.841386&lon=2.504038&appid=??&lang=fr&units=metric")
     xhttp.send();
 }
 
